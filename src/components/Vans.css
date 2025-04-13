@@ -1,0 +1,66 @@
+.filter-list-element{
+    padding-inline: 11px;
+    padding-block:5px;
+    background-color: #FFEAD0;
+    border-radius: 5px;
+    margin-left:10px;
+    margin-top: 0px;
+    color: #161616;
+}
+
+.filter-list{
+    display: flex;
+    margin-inline: 10px;
+}
+  
+.filter-container{
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    padding-top: 30px
+}
+
+
+.grid-container{
+    margin-block: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.vans-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+}
+
+.simple:hover{
+    background-color: #E17654;
+    color: white;
+    cursor: pointer;
+}
+
+.luxury:hover{
+    background-color: #161616;
+    color: white;
+    cursor: pointer;
+}
+
+.rugged:hover{
+    background-color: #115E59;
+    color: white;
+    cursor: pointer;
+}
+
+.simple.selected{
+    background-color: #E17654;
+    color: white;
+}
+.luxury.selected{
+    background-color: #161616;
+    color: white;
+}
+.rugged.selected{
+    background-color: #115E59;
+    color: white;
+}
